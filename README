@@ -1,0 +1,2 @@
+This repository contains the class projects I've done.
+* homologfinder.py - This is the final project for Biological Databases. It takes in tabulated blast results between a proteome and a genome from different species, and attempts to find proteins in the proteome that also exist in the genome with 90% identity, while accounting for exons where introns would split the BLAST hits into multiple hits.
