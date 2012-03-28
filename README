@@ -1,2 +1,3 @@
 This repository contains the class projects I've done.
 * homologfinder.py - This is the final project for Biological Databases. It takes in tabulated blast results between a proteome and a genome from different species, and attempts to find proteins in the proteome that also exist in the genome with 90% identity, while accounting for exons where introns would split the BLAST hits into multiple hits.
+* pfinder.py - This is a program written while helping Dr. Milton Saier with small scripts. A Masters student in his lab was finding whole versions of gene fragments by running it against the genome of a similar protein on BLAST. He would then run BLAST again of the top hit back to the genome of the original species. This program was written to automate the process.
